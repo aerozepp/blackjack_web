@@ -1,0 +1,115 @@
+@media only screen and (max-width: 420px) {
+
+body {
+	background-image: url("../img/responsive.jpg");
+	background-size : cover; 
+	box-shadow: 4px 4px 8px 8px rgba(0, 0, 0, 0.2), 6px 6px 20px 20px
+		rgba(0, 0, 0, 0.19);
+	
+}	
+	
+/*================================== Menu Bar =====================================*/
+
+#menuBar .logo{
+	
+	width : 60px;
+}
+#menuBar .logo h2 {
+	display:none;
+}
+
+/*==================================  Game Room =====================================*/
+
+#gameRoom .layout {
+
+	width : 100%;
+	margin-top: 0;
+	height : 540px;
+
+}
+
+#gameRoom .status {
+
+	width: 110px;
+	margin-left: 20px;
+	margin-top: 20px;
+	border-radius: 4px;
+}
+
+
+#gameRoom .chips {
+
+	top: 420px;
+	left : -30px;
+}
+
+#gameRoom .btn_group {
+	margin-top : 5px;
+	margin-left: 140px;
+}
+#gameRoom .btn_group li p{
+	
+	width : 45px;
+}
+
+/*====================gameRoom Cards===============================  */
+
+
+#gameRoom .dealer_cards_panel img {
+	margin-top: 60px;
+	margin-left : -50px;
+
+}
+#gameRoom .user_cards_panel img {
+	margin-left : -50px;
+}
+
+/* =============================== value ====================================== */
+
+
+#dealer_balloon {
+
+	left: 180px;
+	top: -80px;
+}
+
+#dealer_value_status {
+
+	left: -20px;
+
+}
+
+
+#value_balloon {
+
+	left: 270px;
+	top: 230px;
+}
+
+#value_status {
+
+	left: -20px;
+
+}
+
+
+
+
+/*=================================================== Modal Header */
+
+/* Modal Content */
+.modal-content {
+	
+	background-color: #fefefe;
+	margin-left : 0;
+	width : 100%;
+}
+	
+	
+	
+	
+	
+	
+		
+	
+}
